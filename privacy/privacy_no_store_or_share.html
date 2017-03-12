@@ -1,31 +1,86 @@
 <html>
 <head>
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-	<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+	<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css" />
 	<title></title>
-	<style type="text/css">body
-      {
-        font-family: 'Roboto';
-        font-size: 16px;
-        text-rendering: optimizeLegibility;
-      }
-	</style>
+	<style type="text/css">
+		body {
+			font-family: 'Roboto';
+			font-size: 1em;
+			text-rendering: optimizeLegibility;
+			background: #e2e1e0;
+			margin-top: 80px;
+			margin-left: 0;
+			margin-right: 0;
+			margin-bottom: 0;
+		}
+	  
+		.navbar {
+			height: 80px;
+			width: 100%;
+			display: block;
+			position: fixed;
+			top: 0;
+			left: 0;
+			z-index: 10;
+			background-color: #1BBBFB;
+			padding: 0 29px;
+		}
+		
+		.title {
+			color: #fff;
+		}
 
+		.card {
+			background: #fff;
+			border-radius: 2px;
+			display: inline-block;
+			margin: 1rem 15%;
+			padding: 1rem 2rem;
+			position: relative;
+			box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+		}
+		
+		p {
+			font-size: 120%;
+		}
+
+		h1 {
+			font-size: 200%;
+		}
+
+		h2 {
+			font-size: 150%;
+		}
+		
+		@media only screen and (max-width: 768px) {
+			p {
+				font-size: 200px;
+			}
+		}
+	</style>
 </head>
 <body>
-<h3>Privacy policy</h3>
-<hr>
+
+<div class="navbar">
+<h1 class="title">Privacy policy</h3>
+</div>
+
+<div class="card">
 
 <p>RoHi respect the privacy concerns of our users. We do not store or share your personal information, period. The app doesn't have the required permissions to access private data.</p>
 
-<h4>Changes to our Privacy Policy</h4>
+<h2>Changes to our Privacy Policy</h2>
 
 <p>The current Privacy Policy may be changed. We will keep this document up to date. Last updated: Feb 19, 2017</p>
 
-<h4>Contacting Us</h4>
+<h2>Contacting Us</h2>
 
 <p>If there are any questions regarding this privacy policy you may contact us using the information below.<br>
 Furdekova 10, 851 03 Bratislava, Slovakia<br>
 <a href="mailto:rohi.developer@gmail.com">rohi.developer@gmail.com</a></p>
 
-</body></html>
+</div>
+
+</body>
+</html>
